@@ -1,6 +1,6 @@
 # Draughts
 
-1 Introducere
+# 1 Introducere
 Jocul ”Draughts” este unul dintre cele mai cunoscute jocuri din lume ˆıns˘a
 cerint,a de a crea mai multe variat,iuni pentru acesta face ca proiectul s˘a fie unul
 mai interesant deoarece ai posibilitatea de a descoperi, plecˆand de la un joc
@@ -18,7 +18,9 @@ pentru a fi mˆancate. Pierde cel care r˘amˆane far˘a piese sau este blocat d
 adversar.
 • joc mediu (Losing Draughts)
 Aceleas, i reguli ca la Draughts doar ca cel care r˘amˆane f˘ar˘a piese cˆas,tig˘a.
-2 Tehnologiile utilizate
+
+# 2 Tehnologiile utilizate
+
 Acest joc se realizeaz˘a cu ajutorul protocolului TCP. Acesta este un serviciu
 bazat pe conexiuni, ˆınsemnˆand cˇa ma¸sinile care trimit ¸si cele care primesc sunt
 conectate ¸si comunicˇa una cu cealaltˇa tot timpul.
@@ -93,8 +95,8 @@ s,
 i afis, arii unui clasament atunci cˆand clientul solicit˘a. Codul surs˘a este
 disponibil prin fis,ierul antet sqlite3.h care defines,te interfat,a pe care biblioteca
 SQLite o prezint˘a programelor client.
-3 Arhitectura aplicatiei
-3.1 Conceptele implicate
+# 3 Arhitectura aplicatiei
+# 3.1 Conceptele implicate
 Tabla de joc va fi reprezentat˘a de o matrice de 8 × 8, valorile din matrice
 reprezentˆand urmatoarele: 0 (loc liber), 1 (pion al juc˘atorului A), 2 (pion al
 juc˘atorului B), 3 (dama juc˘atorului A), 4 (dama juc˘atorului B) iar −1 (border).
