@@ -1,0 +1,13 @@
+connection.cpp
+connection.h
+main.cpp
+mainmenu.cpp
+mainmenu.h
+mainwindow.cpp
+mainwindow.h
+ranking.cpp
+ranking.h
+secondwindow.cpp
+secondwindow.h
+thirdwindow.cpp
+thirdwindow.h

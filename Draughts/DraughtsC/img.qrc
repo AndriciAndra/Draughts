@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/img">
+    	<file alias="pionAlb.png">icons/pionAlb.png</file>
+    	<file alias="pionNegru.png">icons/pionNegru.png</file>
+    	<file alias="damaAlba.png">icons/damaAlba.png</file>
+    	<file alias="damaNeagra.png">icons/damaNeagra.png</file>
+    </qresource>
+</RCC>
