@@ -24,6 +24,6 @@ Serverul foloseste un TCP concurent pentru a servi mai multi clienti simultan. I
 – cand primeste cerere pentru a se juca unul dintre cele doua variante, se adauga intr-o structura cei doi jucatori. Se verifica mutarile in functie de coordonate pana cand este indeplinita conditia de final de joc. Ordinea jucatorilor este stabilita de server la fiecare runda, fiind transmis un mesaj clientului in care se specifica cine trebuie sa mute. Cand se termina jocul, acesta transmite parintelui rezultatul care actualizeaza baza de date.
 – cand primeste cerere de afisare a clasamentului, serverul alege primii 10 juc˘atori ordonati crescator din baza de date si pozit, ia jucatorului care a facut cererea.
 
-# How to run server7.c
+# Cum executam server7.c
 1. gcc server7.c -o server7 -lsqlite3
 2. ./server7
